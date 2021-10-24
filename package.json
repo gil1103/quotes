@@ -18,9 +18,7 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"predeploy":"npm run build",
-		"deploy": "quotes -d build"
+		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -39,21 +37,5 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
-	},
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/gil1103/quotes.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/gil1103/quotes/issues"
-	},
-	"homepage": "https://gil1103.github.io/quotes",
-	"description": "",
-	"devDependencies": {
-		"gh-pages": "^3.2.3"
 	}
 }
